@@ -34,7 +34,16 @@
             "resourceName": "apigapNortheast2Singaporecheckcalget",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "6606b0c9-3d0e-45e0-8e90-b212b0eeede3": {
+            "id": "6606b0c9-3d0e-45e0-8e90-b212b0eeede3",
+            "name": "Test event",
+            "functionId": "a973a78b-e6bd-4df7-807d-bc9d046eae25",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "rootNode": "c5846786-2f8f-4cea-8887-d2b89198e97f",
@@ -97,7 +106,7 @@
     "projectRegion": "ap-northeast-2",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1579681106059
+    "lastSave": 1579681577132
   },
   "VCS_STATE": {
     "provider": "GitHub",
