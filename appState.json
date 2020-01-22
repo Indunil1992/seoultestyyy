@@ -1,0 +1,109 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c5846786-2f8f-4cea-8887-d2b89198e97f": {
+        "id": "c5846786-2f8f-4cea-8887-d2b89198e97f",
+        "parent": null,
+        "name": "seoultestyyy",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a973a78b-e6bd-4df7-807d-bc9d046eae25"
+        ],
+        "isRemovable": false,
+        "filePath": "seoultestyyy"
+      },
+      "a973a78b-e6bd-4df7-807d-bc9d046eae25": {
+        "id": "a973a78b-e6bd-4df7-807d-bc9d046eae25",
+        "parent": "c5846786-2f8f-4cea-8887-d2b89198e97f",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "seoultestyyy/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapNortheast2Singaporecheckcalget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "c5846786-2f8f-4cea-8887-d2b89198e97f",
+    "openFiles": [
+      "a973a78b-e6bd-4df7-807d-bc9d046eae25"
+    ],
+    "currentFileId": "a973a78b-e6bd-4df7-807d-bc9d046eae25",
+    "resources": {
+      "apigapNortheast2Singaporecheckcalget": {
+        "name": "apigapNortheast2Singaporecheckcalget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-northeast-2",
+          "apiMode": 1,
+          "apiName": "Singapore",
+          "apiId": "ooxm2yxq62",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "aynhibfjch",
+          "existingResources": {
+            "/check/cal": "42h7kw",
+            "/": "aynhibfjch",
+            "/check": "q1juya"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/check/cal",
+          "resourceName": "check/cal",
+          "resourceId": "42h7kw",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "qa",
+          "stageDeploymentId": "fymnkn",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "seoultestyyy",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-northeast-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1579681106059
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "seoultestyyy",
+      "url": "https://github.com/Indunil1992/seoultestyyy"
+    }
+  }
+}
